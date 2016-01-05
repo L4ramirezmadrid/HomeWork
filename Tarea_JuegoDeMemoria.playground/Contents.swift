@@ -5,11 +5,11 @@ import UIKit
 for index in 0...100 {
     
     
-    var divisible = index / 5;
+    var divisible = index % 5;
     var parImpar = index % 2;
     
     
-    if divisible > 0 {
+    if divisible == 0 {
         print ("\(index) Bingo !!!");
     }
     if parImpar == 0 {
